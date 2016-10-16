@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "issueTitle": "Report a leak",
+    "issueName": "Leak"
+  },
+  {
+    "id": 2,
+    "issueTitle": "No hot water",
+    "issueName": "Hot Water"
+  },
+  {
+    "id": 3,
+    "issueTitle": "Other Issue",
+    "issueName": "Other Issue"
+  }
+]

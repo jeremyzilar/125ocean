@@ -1,0 +1,38 @@
+
+
+/*Break Points*/
+$break-xs: "screen and (max-width: 767px)";
+$break-sm: "screen and (min-width: 768px)";
+$break-md: "screen and (min-width: 992px)";
+$break-lg: "screen and (min-width: 1200px)";
+
+$sans: 'Lato', Arial, sans-serif;
+
+body{
+  margin:0;
+  font-family: $sans;
+  @media #{$break-sm} {
+    background: #f8f8f8;
+  }
+  @media #{$break-md} {
+    background: #efefef;
+  }
+}
+
+#page{
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#app{
+  margin:0;
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+  border-bottom-left-radius:2px;
+  border-bottom-right-radius:2px;
+  position: relative;
+  font-size: 16px;
+}
+.wrapper{
+  position: relative;
+}

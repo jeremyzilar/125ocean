@@ -1,0 +1,30 @@
+#reader{
+  overflow: scroll;
+}
+
+.entry{
+  margin-bottom: 15px;
+  font-size: 14px;
+  .author{
+    display: inline-block;
+    vertical-align: top;
+    .author-img{
+      margin-right: 10px;
+      width:35px;
+      height:35px;
+      border-radius: 25px;
+      border:1px solid #efefef;
+    }
+  }
+
+  .entry-text{
+    display: inline-block;
+    width: 80%;
+    h5{
+      margin: 0 0 3px 0;
+      font-size: 10px;
+      font-weight: 400;
+      color:#999;
+    }
+  }
+}
